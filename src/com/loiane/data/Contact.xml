@@ -26,7 +26,7 @@
 
     <insert id="insert" parameterType="Contact">
     INSERT INTO CONTACT (CONTACT_EMAIL, CONTACT_NAME, CONTACT_PHONE) 
-		VALUES (#{name}, #{phone}, #{email});
+		VALUES (#{email}, #{name}, #{phone});
       <selectKey keyProperty="id" resultType="int" order="AFTER">
 		select last_insert_id() as id
 	  </selectKey>
