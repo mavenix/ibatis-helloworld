@@ -7,8 +7,8 @@
  * http://loiane.com (Portuguese)
  */
 
-DROP TABLE IF EXISTS `blog`.`contact`;
-CREATE TABLE  `blog`.`contact` (
+DROP TABLE IF EXISTS `blog`.`CONTACT`;
+CREATE TABLE  `blog`.`CONTACT` (
   `CONTACT_ID` int(11) NOT NULL AUTO_INCREMENT,
   `CONTACT_EMAIL` varchar(255) NOT NULL,
   `CONTACT_NAME` varchar(255) NOT NULL,
